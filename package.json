@@ -1,0 +1,22 @@
+{
+  "name": "imx",
+  "version": "1.0.0",
+  "description": "nft trading bot for imx platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node workflows/old_sdk/inventory.js",
+    "test": "npm test"
+  },
+  "author": "leoverse",
+  "license": "ISC",
+  "dependencies": {
+    "@imtbl/core-sdk": "^1.0.0-beta.2",
+    "@imtbl/imx-link-lib": "^1.1.190",
+    "@imtbl/imx-sdk": "^1.26.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
